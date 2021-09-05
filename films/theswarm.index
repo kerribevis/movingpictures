@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Moving Pictures - Films - The Swarm</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tourney:wght@300;400&family=Turret+Road:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
+body {
+  background-color: #0C0C1E;
+}
+
+h1 {
+  color: #74112F;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  font-size: 12vh;
+}
+
+h2 {
+  color: #74112F;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+  font-size: 6vh;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 6vh;
+  text-align: center;
+  color: #74112F;
+
+}
+
+a {
+  color: #74112F;
+}
+
+a:hover {
+  background-color: #F3E3E2;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 26vh;
+
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<p><a href="../films.html">Return to main menu</a></p>
+
+<h1>The Swarm</h1>
+
+<div style="background-color: rgba(91.4%, 91.8%, 92.5%, 75%);">
+
+<p>The Swarm is a French horror film directed by Just Philippot and currently showing on Netflix. It tells the story of a mother struggling to make a success of a locust farm following the suicide of her husband.
+  Desperate to make ends meet, she discovers that feeding blood to the locusts makes them produce more quickly, yielding a more robust crop.  But as the locusts get a taste for blood, things start to spin out of control.</p>
+
+<p>The Swarm isn’t a great film. I should put that out there before continuing with this review. Do not go into this film expecting a cinematic masterpiece. It is not that. But in the genre of animal horror, specifically insect horror, a film doesn’t really need to be great to be good.</p>
+
+<p>The bar is kind of low.</p>
+
+<p>The saving grace for this film is the commitment of its leads. Suliane Brahim does an amazing job portraying a mother on the edge trying to make enough money to support her family, whilst grappling with the fallout of her husband’s suicide.
+  Sofian Khammes is a great support, playing the pining lover in the shadows, too blinded by his feelings to make the right call once he discovers what is going on in the locust farm.</p>
+
+<p>Locusts are incredibly creepy insects. It doesn’t take a lot to make them frightening, but The Swarm does manage to make those little critters even more off-putting. There is a particular scene towards the end of the film where the daughter discovers what her mother is doing that was so creepy and disturbing it actually made me cringe.</p>
+
+<p>But scenes like that are far and few between in The Swarm. For a film about blood-thirsty locusts, it is a surprisingly-gore-free film. I expected to see mutilated corpses and half-eaten people abound, but the camera more often than not pans away when a scene is becoming bloody.
+  This decision might have been made to make the few gory scenes more shocking, but it ultimately makes The Swarm feel more like a film about grief and locust farming than a horror.</p>
+
+<p>The film doesn’t handle grief well enough to place it in the same category as The Babadook and Midsommar, and so it seems to struggle to define itself. Is it a horror? Is it a tragedy? Is it a film about the ins and outs of locust farming? The viewer doesn’t know and neither does The Swarm.</p>
+
+<ul>
+<li>Rating: Five out of ten locusts</li>
+<li>Would not watch again</li>
+</ul>
+
+</div>
+
+<div style="padding-left: 30%;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/si5irFBLe5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
