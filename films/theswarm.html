@@ -8,7 +8,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tourney:wght@300;400&family=Turret+Road:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
 
 body {
   background-color: #0C0C1E;
@@ -16,66 +17,61 @@ body {
 
 h1 {
   color: #74112F;
+  text-shadow: 2px 2px 5px red;
   font-family: 'Bungee', cursive;
   text-align: center;
   font-size: 12vh;
 }
 
-h2 {
-  color: #74112F;
-  font-family: 'Bungee', cursive;
-  text-align: center;
-  font-size: 6vh;
-}
-
-p, ul {
-  font-family: 'Inconsolata', monospace;
-  font-size: 6vh;
-  color: #74112F;
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 5vh;
+  color: white;
   text-align: justify;
 
 }
 
+ul, li, .listheading {
+  color: black;
+  font-family: 'EB Garamond', serif;
+  font-size: 5vh;
+  text-align: justify;
+}
+
 a {
-  color: #74112F;
+  font-family: 'Bungee', cursive;
 }
 
-a:hover {
-  background-color: #F3E3E2;
+.main {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 0.2%;
+  padding-bottom: 0.2%;
+  border-radius: 20px;
+  border: 2px solid red;
 }
 
-a:link {
-  text-decoration: none;
+.video {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.image {
-  display: flex;
-  justify-content: center;
-  height: 26vh;
-
+iframe {
+  box-shadow: 10px 10px red;
 }
 
-img:hover {
-  /* Start the shake animation and make the animation last for 0.5 seconds */
-  animation: shake 0.5s;
+.list {
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: #BA0F30;
+  box-shadow: 10px 10px 5px red;
+  border-radius: 20px;
+ }
 
-  /* When the animation is finished, start again */
-  animation-iteration-count: infinite;
-}
 
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
 
 </style>
 
@@ -87,7 +83,14 @@ img:hover {
 
 <h1>The Swarm</h1>
 
-<div style="background-color: rgba(91.4%, 91.8%, 92.5%, 75%); padding-left: 2%; padding-right: 2%; padding-top: 0.2%; padding-bottom: 0.2%;">
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/si5irFBLe5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br>
+<br>
+
+<div class="main">
 
 <p><b>The Swarm</b> is a French horror film directed by Just Philippot and currently showing on Netflix.</p>
 
@@ -111,15 +114,22 @@ img:hover {
 
 <p>Is it a horror? Is it a tragedy? Is it a film about the ins and outs of locust farming? The viewer doesn’t know and neither does <b>The Swarm</b>.</p>
 
+</div>
+
+<br>
+<br>
+
+<div class="list">
+
+
+<p class="listheading">Final thoughts:</p>
+
 <ul>
 <li>Rating: Five out of ten locusts</li>
 <li>Would not watch again</li>
 </ul>
 
-</div>
 
-<div style="padding-left: 30%;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/si5irFBLe5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 </body>
